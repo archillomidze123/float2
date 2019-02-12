@@ -11,7 +11,7 @@ body,html{
 	height: 100%;
 	width: 100%;
 	padding: 40px;
-	border: solid; color: #006837;
+	border: 5px solid; color: #006837; 
 }
 .image{
 	height: 20%;
@@ -50,4 +50,10 @@ body,html{
 	clear: both;
 	display: block;
 
+}
+.text1{
+	text-indent: 30px;
+}
+.text2{
+	text-indent: 30px;
 }
