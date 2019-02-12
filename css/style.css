@@ -1,17 +1,53 @@
-body, html{
+body,html{
 	width: 100%;
 	height: 100%;
-	padding: 40px;
-}
-.disply-inline-block{
-	display: inline-block;
+	padding: 20px;
 }
 .satauri{
 	text-align: center;
 }
-.container{
+.main-container{
 	background-color: #22B573;
+	height: 100%;
+	width: 100%;
+	padding: 40px;
+	border: solid; color: #006837;
 }
-.fri{
-	size: 100px;
+.image{
+	height: 20%;
+}
+.navigation{
+	margin-right: 50px;
+}
+.navigation-a{
+	font-size: 48px;
+	color: #fff;
+	margin-right: 30px;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.disply-inline-block{
+	display: inline-block;
+}
+.clear{
+	clear: both;
+}
+.box{
+	width: 48%;
+	background-color: #FCEE21;
+	padding: 20px;
+}
+.img{
+	margin-left: 23px;
+	margin-right: 23px;
+}
+.mtavari::after{
+	content: '';
+	clear: both;
+	display: block;
+
 }
